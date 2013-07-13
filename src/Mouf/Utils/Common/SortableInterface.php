@@ -17,5 +17,5 @@ interface SortableInterface {
 	 * @param string $key The key to sort upon
 	 * @param string $direction Either SortableInterface::ASC or SortableInterface::DESC
 	 */
-	public function sortable($key, $direction = self::ASC);
+	public function sort($key, $direction = self::ASC);
 }
