@@ -1,0 +1,28 @@
+{
+    "name": "mouf/utils.common.sortable-interface",
+    "description": "This package contains an interface used by objects to say they can sort data. The concept is very simple, the object implements a sort method that takes a key (the sort column) and a direction, and that's it!",
+    "keywords": ["mouf", "sortable", "interface", "sortableinterface"],
+    "homepage": "https://mouf-php.com/packages/mouf/utils.common.sortable-interface",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Négrier",
+            "email": "d.negrier@thecodingmachine.com",
+            "homepage": "http://mouf-php.com"
+        }
+    ],
+    "require": {
+    	"php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mouf": "src/"
+        }
+    },
+    "extra": {
+        "mouf": {
+            "logo": "logo.png"
+        }
+    }
+}
